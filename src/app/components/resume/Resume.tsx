@@ -26,6 +26,7 @@ const Resume = React.forwardRef<HTMLDivElement>((props, ref) => {
                 <div >Email: abhilesh925@gmail.com</div>
                 <div className="ml-4"><Link href={'https://github.com/Abhilesh1001/'}>Git</Link></div>
                 <div className="ml-4"><Link href={'https://www.linkedin.com/in/abhileshkumar/'}>Linkedin</Link></div>
+                <div className="ml-4"><Link href={'https://abhileshportfolio.vercel.app/'}>Portfolio</Link></div>
 
             </div>
 
