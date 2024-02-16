@@ -2,7 +2,7 @@
 import React,{useState} from 'react'
 import {habdleSubmit} from '@/action/messageaction'
 import { useRef } from 'react'
-import Loading from './loading/Loading'
+import Button from './button/Button'
 
 const Form = () => {
     const [message,setMessage] = useState()
@@ -27,7 +27,7 @@ const Form = () => {
       <label htmlFor="message" className="block dark:text-gray-50 font-bold mb-2">Message</label>
       <textarea id="message" className="border text-gray-700 border-gray-300 rounded-md px-3 py-2 w-full h-20 resize-none focus:outline-none focus:border-blue-500" name='message' required />
     </div>
-    <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-gray-50 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Send Message</button>
+    <Button />
   </form>
   </div>
   )
