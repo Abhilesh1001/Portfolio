@@ -24,7 +24,7 @@ interface projectprops{
 const ProjectCard = (props:projectprops) => {
     const {project} = props
     const image = `${baseurl}${project.image}`
-    console.log(image)
+ 
 
     return (
       <div className="max-w-md rounded overflow-hidden shadow-lg  bg-green-800 dark:bg-gray-700">
@@ -35,10 +35,10 @@ const ProjectCard = (props:projectprops) => {
           <p className="text-gray-50 text-base">{project.desc}</p>
         </div>
         <div className="px-6 py-4">
+          <a href={project.frontendLink} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-300">Project Link</a>
           <a href={project.githubLinkFrontend} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-300">GitHub Frontend</a>
           <a href={project.githubLinkBAckend} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-300">GitHub Backend</a>
           <a href={project.backendLink} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-300">Backend</a>
-          <a href={project.frontendLink} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-gray-300">Frontend</a>
         </div>
       </div>
     );

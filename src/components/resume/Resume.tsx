@@ -19,7 +19,6 @@ const Resume = React.forwardRef<HTMLDivElement>((props, ref) => {
 
         <div ref={ref}  className="min-h-screen  h-auto lg:mt-6 xl:ml-20 xl:mr-20 lg:ml-15 lg:mr-15 md:ml-8 md:mr-8 ml-4 mr-4 ">
             <style>{getPageMargins()}</style>
-            <div className="h-4"></div>
             <h1 className="text-3xl font-bold mb-4">Abhilesh Kumar</h1>
             <p>Contact No: +919083926254, +919064164277</p>
             <div className="flex">
@@ -27,19 +26,17 @@ const Resume = React.forwardRef<HTMLDivElement>((props, ref) => {
                 <div className="ml-4"><Link href={'https://github.com/Abhilesh1001/'}>Git</Link></div>
                 <div className="ml-4"><Link href={'https://www.linkedin.com/in/abhileshkumar/'}>Linkedin</Link></div>
                 <div className="ml-4"><Link href={'https://abhileshportfolio.vercel.app/'}>Portfolio</Link></div>
-
             </div>
 
-
-            <h2 className="text-2xl font-bold mt-3 mb-4">Technical Skills</h2>
+            <h2 className="text-2xl font-bold">Technical Skills</h2>
             <ul>
                 <li>Programming Languages: JavaScript, HTML, CSS, Python</li>
                 <li>Frameworks/Libraries: React, Redux, Bootstrap, Tailwind CSS, Django, Typescript, Next Js, Django Rest Framework,React Query</li>
             </ul>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4">Projects</h2>
+            <h2 className="text-2xl font-bold">Projects</h2>
 
-            <div className="flex"><div>1)Procurement Management system :</div><div><Link href={'https://materialmovement.vercel.app/'}>Link</Link></div></div>
+            <div className="flex"><div>1)Procurement Management system :</div><div><Link href={'https://procurement-mu.vercel.app/'}>Link</Link></div></div>
             <div className="ml-5">Designed and implemented an end-to-end procurement management system encompassing Material Creation, Purchase Request, Purchase Order generation, and Goods Receipt Note</div>
 
             <div className="flex"><div>2)RD collection, Loan amount tracking and Share holder fund :</div><div><Link href={'https://materialmovement.vercel.app/'}>Link</Link></div></div>
@@ -68,13 +65,13 @@ const Resume = React.forwardRef<HTMLDivElement>((props, ref) => {
             
 
 
-            <h2 className="text-2xl font-bold mt-8 mb-4">Academic Qualifications</h2>
+            <h2 className="text-2xl font-bold">Academic Qualifications</h2>
             <li>Completed B. TECH with 8.3 CGPA in Instrumentation and Control Engineering from D.R M.G.R
                 Education and Research Institute Chennai</li>
             <li>Completed H.S.C with 61.5% marks from Sindhu Mahavidyalay Nagpur</li>
             <li>Completed S.S.C with 67.5% marks from S.B.H.S Maharajganj Siwa</li>
 
-            <h2 className="text-2xl font-bold mt-8 mb-4">Work Experience</h2>
+            <h2 className="text-2xl font-bold">Work Experience</h2>
 
             <li>Freelancer from August 2022 to till date as React Developer.</li>
             <li>Worked in Everest Parenterals Pvt. Ltd from 30.01.2023 to 10.09.2023</li>
