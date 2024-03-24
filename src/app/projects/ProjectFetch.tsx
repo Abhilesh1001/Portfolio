@@ -3,14 +3,14 @@ import ProjectCard from './ProjectCard'
 import { baseurl } from '@/data/dataall'
 
 async function projectlist(){
-    let data = await fetch(`${baseurl}/pro/project`)
+    let data = await fetch(`${baseurl}/pro/project`, { cache: 'force-cache' })
     let res = await data.json()
     return res
 }
 
 const ProjectFetch = async () => {
     let project = await projectlist()
-    console.log(project)
+    console.log(project,'.................')
 
   return (
     <div className='bg-green-500 dark:bg-gray-700'>
