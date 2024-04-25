@@ -39,7 +39,7 @@ const Resume = React.forwardRef<HTMLDivElement>((props, ref) => {
             <div className="flex"><div>1)Procurement Management system :</div><div><Link href={'https://procurement-mu.vercel.app/'}>Link</Link></div></div>
             <div className="ml-5">Designed and implemented an end-to-end procurement management system encompassing Material Creation, Purchase Request, Purchase Order generation, and Goods Receipt Note</div>
 
-            <div className="flex"><div>2)RD collection, Loan amount tracking and Share holder fund :</div><div><Link href={'https://materialmovement.vercel.app/'}>Link</Link></div></div>
+            <div className="flex"><div>2)RD collection, Loan amount tracking and Share holder fund :</div><div><Link href={'https://sharerloanrdcollection.vercel.app/'}>Link</Link></div></div>
 
             <div className="ml-5">RD Collection: Developed a user-friendly RD Collection module for tracking daily contributions to Recurring Deposit (RD) accounts. Enabled easy monitoring of daily RD collections and generation of transparent reports for specified date ranges. Loan Amount Collection: Created an intuitive system for seamless lending and daily monitoring of loan amount collections. Integrated a robust tracking mechanism, providing clear insights into daily collections and outstanding balances. Share Holder Fund: Developed a Share Holder Fund module for efficient contribution tracking and fund management. Implemented a secure system with real-time insights into daily share holder fund collections and transparent reporting.</div>
             <div className="flex"><div>3) Ecommerce Application:</div><div><Link href={'https://reactfront-gamma.vercel.app/'}>Link</Link></div></div>
