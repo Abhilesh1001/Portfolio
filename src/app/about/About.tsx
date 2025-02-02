@@ -16,8 +16,9 @@ const About = () => {
                         <Image src={profileimage} alt="Profile Picture" width={500}
                             height={500} className="w-64 h-64 rounded-full mb-4" />
 
-                        <h2 className="text-2xl font-semibold mb-2  text-gray-50">Abhileh Kumar</h2>
-                        <div className="text-gray-50 mb-4 ">Web Developer</div>
+                        <h2 className="text-2xl font-semibold mb-2 text-gray-50">Abhileh Kumar</h2>
+                        <div className="text-gray-50 mb-2">Senior Executive at Swiss Garnier Genexia Sciences</div>
+                        <div className="text-gray-50">and Full Stack Developer</div>
                         <div className="flex space-x-4">
                             <Link href="https://www.linkedin.com/in/abhileshkumar/" className="text-gray-50 hover:underline ">LinkedIn</Link>
                             <Link href="https://github.com/Abhilesh1001" className="text-gray-50 hover:underline">GitHub</Link>
@@ -26,22 +27,10 @@ const About = () => {
                     <div>
                         <div className="text-lg text-gray-50">Technical Skills :</div>
                         <div className='text-gray-50'>
-                            Programming Languages: JavaScript, HTML, CSS, Python
-                            <div className='text-gray-50'> Frameworks/Libraries: React, Redux, Bootstrap, Tailwind CSS, Django, Typescript, Next Js, Django Rest,Framework,React Query</div>
-                        </div>
-                        <div className="text-lg mt-4 text-gray-50">Qualification :</div>
-                        <div className='text-gray-50'>
-                            <div className='text-gray-50 flex'><TbPointFilled className='text-2xl mr-2' /> <span>Completed B. TECH with 8.3 CGPA in Instrumentation and Control Engineering from D.R M.G.R Education and Research Institute Chennai</span></div>
-                            <div className='text-gray-50 flex'><TbPointFilled className='text-2xl mr-2' /> <span>Completed H.S.C with 61.5% marks from Sindhu Mahavidyalay Nagpur</span></div>
-                            <div className='text-gray-50 flex'><TbPointFilled className='text-2xl mr-2' /> <span>Completed S.S.C with 67.5% marks from S.B.H.S Maharajganj Siwan</span></div>
-                        </div>  
-
-                        <div className="text-lg mt-4 text-gray-50">Work Experience :</div>
-                        <div className='text-gray-50'>
-                            <div className='text-gray-50 flex'><TbPointFilled className='text-2xl mr-2' /> <span>Freelancer from August 2022 to till date as React Developer</span></div>
-                            <div className='text-gray-50 flex'><TbPointFilled className='text-2xl mr-2' /> <span>Worked in Everest Parenterals Pvt. Ltd from 30.01.2023 to 10.09.2023</span></div>
-                            <div className='text-gray-50 flex'><TbPointFilled className='text-2xl mr-2' /> <span>Worked in Torrent Pharmaceutical Limited from 23.01.2017 to 20.01.2023 date as Executive (non It
-                                field)</span></div>
+                            <div className='text-gray-50'>•    Control and experience on pharmaceutical industrial machine maintenance HVAC, Split AC, Granulation machines RMG, FBP, shifter, blender, paste kettle, Compression machine, Coating machine, Blister packing machine, Strip packing, Bottle Filling Machine, Bottle Blowing Machine, Bag filling Machine</div>
+                            <div className='text-gray-50'> •	Full Stack Devloper with web hosting having knowledge of Django, React Js, Javascript, Python, Next Js, Typescript, Docker , Kubernative   </div>
+                            <div className='text-gray-50'> •	Knowledge of process control, control system, industrial instrumentation, digital electronics   </div>
+                            <div className='text-gray-50'> •    Basic Knowledge of computer Python, MS excel, MS office, Photoshop, MATLAB, LAB VIEW, AUTO CAD.</div>
                         </div>
                     </div>
                 </div>
@@ -50,6 +39,40 @@ const About = () => {
                         Contact Me
                     </Link>
                 </div>
+
+
+
+                <div className="text-lg mt-4 text-gray-50">Job Responsibility :</div>
+                <div className='text-gray-50'>
+                    <div className='text-gray-50 flex'> <span>•	Project Implementation, erection, testing and commissioning of Pharmaceuticals, Electrical- Mechanical equipment’s</span></div>
+                    <div className='text-gray-50 flex'> <span>•	Troubleshooting and repair 3 Phase system, AC/DC, motor control circuits, contactor, switches, relays, sensors, programmable logic controller (PLC), variable frequency drive (VFD), Ladder Logic, Electrical, Mechanical, Instrumentation and functional block programing, servo motor.  </span></div>
+                    <div className='text-gray-50 flex'><span>•	To check preventive maintenance of process and utility equipment on site as per schedule.</span></div>
+
+                    <div className='text-gray-50 flex'> <span>•	Operation and maintenance of DG sets, Air Compressor, Water System.</span></div>
+                    <div className='text-gray-50 flex'> <span>•	To carryout SAP activities like, PR, Service Entry sheet and follow up for approval, preparation for Capex Budget and revenue Budget. To carryout Calibration of Instruments as per Schedule.</span></div>
+
+                    <div className='text-gray-50 flex'> <span>•	Preparation and execution of URS, IQ, OQ, PQ, SOP..</span></div>
+                    <div className='text-gray-50 flex'> <span>•	Control and experience on pharmaceutical industrial machine maintenance, HVAC, Split AC, Granulation machines RMG, FBD, FBP, Shifter, blender, paste kettle, Compression machine, Coating machine, Blister packing machine, Blister Packing Machine (BQS), strip packing, Bottle Filling Machine, Bottle Blowing Machine, Bag filling Machine, Ampoule Filling Machine, Ampoule Washing Machine, Vial Filing Machine, Vial Washing Machine, Sterilize and desterilize Tunnel. </span></div>
+                </div>
+
+                <div className="text-lg mt-4 text-gray-50">Work Experience :</div>
+                <div className='text-gray-50'>
+                    <div className='text-gray-50 flex'> <span>•	Working in Swiss Garnier Genexiaa sciences Unit II, Sikkim as Senior Executive from 07.05.2024 to till date</span></div>
+                    <div className='text-gray-50 flex'> <span>•	Worked in Everest Parenterals Pvt. Ltd from 30.01.2023 to 10.09.2023 Assistant Manager in Engineering Department.</span></div>
+                    <div className='text-gray-50 flex'><span>•	Worked in Torrent Pharmaceutical Limited, Sikkim Unit-III from 23.01.2017 to 20.01.2023 date as Executive in Engineering Department. (Prior to its acquisition by Torrent Pharmaceutical Limited, I was employed at Unichem Laboratories Ltd, which was taken over on December, 2017)</span></div>
+
+                    <div className='text-gray-50 flex'> <span>•	Worked in Swiss Garnier Genexiaa sciences as Jr. Executive from 15.10.2015 to 18.01.2017 in engineering department.</span></div>
+                    <div className='text-gray-50 flex'> <span>•	Worked in Alpha Form Limited from 04.07.2014 to 07.06.2015.</span></div>
+                </div>
+
+                <div className="text-lg mt-4 text-gray-50">Qualification :</div>
+                <div className='text-gray-50'>
+                    <div className='text-gray-50 flex'> <span>•	Completed B.TECH with 8.3 CGPA in Instrumentation and Control Engineering from D.R M.G.R Education and Research Institute Chennai, in 2013.</span></div>
+                    <div className='text-gray-50 flex'><span>•	Completed H.S.C with 61.5% marks from Sindhu Mahavidyalay Nagpur in 2008.</span></div>
+                    <div className='text-gray-50 flex'> <span>•	Completed S.S.C with 67.5% marks from S.B.H.S Maharajganj Siwan in 2006.</span></div>
+                </div>
+
+                
             </div>
         </div>
     );
