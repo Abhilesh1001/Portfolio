@@ -8,7 +8,7 @@ const ContactPage = () => {
          <div className="mt-4 mb-4">
           <h2 className="text-xl font-semibold mb-2">Contact Address:</h2>
           <div className="dark:text-gray-50">Contact No: +919083926254, +918159926254</div>
-          <div className="dark:text-gray-50">Email: abhilesh925@gmail.com</div>
+          <div className="dark:text-gray-50">Email: abhilesh925@gmail.com, abhileshkumar925@gmail.com</div>
         </div>
       <div className="max-w-md p-8 dark:bg-gray-800 bg-green-400 rounded-lg shadow-md">
         <h1 className="text-3xl font-bold text-center mb-6">Contact Me</h1>

@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import profileimage from '../../../src/app/assets/1.jpg'
-import { TbPointFilled } from "react-icons/tb";
+
 
 
 
